@@ -13,6 +13,7 @@ body {
   background: transparent;
   width: 100%;
   height: auto;
+  z-index: 2;
 }
 
 .top-nav a {
@@ -74,7 +75,7 @@ body {
   position: relative;
   height: 100vh;
   widows: 100vw;
-  background-image: url("../img/chairs-2.jpg");
+  background-image: url("https://res.cloudinary.com/theonlybakare/image/upload/v1580399411/chairs-2_rv5mng.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -121,15 +122,15 @@ body {
 }
 
 .main-content .blue-bg .img-1 {
-  background-image: url("../img/conference-room.jpg");
+  background-image: url("https://res.cloudinary.com/theonlybakare/image/upload/v1580399452/conference-room_oicmji.jpg");
 }
 
 .main-content .blue-bg .img-2 {
-  background-image: url("../img/furniture.jpg");
+  background-image: url("https://res.cloudinary.com/theonlybakare/image/upload/v1580399397/furniture_sdgdwe.jpg");
 }
 
 .main-content .blue-bg .img-3 {
-  background-image: url("../img/chairs.jpg");
+  background-image: url("https://res.cloudinary.com/theonlybakare/image/upload/v1580399403/chairs_riwd2u.jpg");
 }
 
 .main-content .blue-bg .arrows {
@@ -175,7 +176,7 @@ body {
 
 .desktop-navigations {
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   top: -800px;
   width: 100%;
   height: 100vh;
